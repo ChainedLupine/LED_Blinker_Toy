@@ -1,0 +1,16 @@
+Release/arduino.ar
+Release/core/
+Release/LED_Blinker_Toy.eep
+Release/LED_Blinker_Toy.elf
+Release/main.cpp.d
+Release/main.cpp.o
+Release/makefile
+Release/objects.mk
+Release/shared.cpp.d
+Release/shared.cpp.o
+Release/sources.mk
+Release/states.cpp.d
+Release/states.cpp.o
+Release/subdir.mk
+Release/watchdog.cpp.d
+Release/watchdog.cpp.o
