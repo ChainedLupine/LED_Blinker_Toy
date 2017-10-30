@@ -18,3 +18,5 @@ Has four modes (or 5, depending if you count "off"):
 In off, the Attiny85 sleeps in power down mode, checking every second to see the button on pin 4 is depressed.  If so, it cycles back to the first pattern.
 
 In all modes, the adjusement pot changes the pattern speed.
+
+Note:  The code expects the Attiny85 to be running in 8MHz mode.  So be sure to set the fuses appropriately (ie: CKDIV8=0), especially if you've been putting Arduino bootloaders on your MCUs.  (As happened to me...)
